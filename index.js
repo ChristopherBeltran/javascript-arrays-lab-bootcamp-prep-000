@@ -27,6 +27,6 @@ function appendKitten(name) {
 }
 
 function appendKitten(name) {
- var otherKittens = [kittens...,name];
+ var otherKittens = [kittens,...name];
   return otherKittens;
 }
