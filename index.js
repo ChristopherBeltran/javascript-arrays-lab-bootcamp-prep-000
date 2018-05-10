@@ -27,5 +27,5 @@ function appendKitten(name) {
 }
 
 function appendKitten(name) {
-  []
+  [name,...]
 }
