@@ -40,3 +40,8 @@ function removeLastKitten() {
   var soManyCats = kittens.slice(0, kittens.length-1);
   return soManyCats;
 }
+
+function removeFirstKitten() {
+  var noMoreCats = kittens.slice();
+  return noMoreCats;
+}
